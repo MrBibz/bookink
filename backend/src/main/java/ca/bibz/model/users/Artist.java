@@ -1,5 +1,6 @@
-package model.users;
+package ca.bibz.model.users;
 
+import ca.bibz.service.dto.ArtistDto;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import org.springframework.data.annotation.Id;
@@ -25,5 +26,9 @@ public class Artist extends User {
                    password=%s
                 ]
                 """, id, username, password);
+    }
+
+    public ArtistDto toDto() {
+        return new ArtistDto(id, username, password);
     }
 }

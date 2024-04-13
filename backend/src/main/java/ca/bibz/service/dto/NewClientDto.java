@@ -1,6 +1,6 @@
-package service.users.dto;
+package ca.bibz.service.dto;
 
-import model.users.Client;
+import ca.bibz.model.users.Client;
 
 public class NewClientDto extends NewUserDto {
 

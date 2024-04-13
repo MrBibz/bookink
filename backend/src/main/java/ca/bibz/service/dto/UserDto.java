@@ -1,4 +1,4 @@
-package service.users.dto;
+package ca.bibz.service.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;

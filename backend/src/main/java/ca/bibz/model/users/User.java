@@ -1,4 +1,4 @@
-package model.users;
+package ca.bibz.model.users;
 
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
